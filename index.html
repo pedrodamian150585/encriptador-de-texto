@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/encriptado.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./assets/logo.png" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!-- Sección Principal -->
+    <main>
+        <section class="encriptacion">
+            <textarea class="encriptar-texto" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+            <article class="encriptador-advertencia">
+                <img src="./assets/advertencia.svg" alt="Imagen advertencia" class="img-advertencia">
+                <p class="texto-advertencia" id="advertencia">Sólo letras minúsculas y sin acentos</p>
+            </article>
+            <article class="contenedor-encriptador">
+                <button class="btn-encriptar" type="button">Encriptar</button>
+                <button class="btn-desencriptar" type="button" value="Desencriptar">Desencriptar</button>
+            </article>
+        </section>
+
+        <section class="desencriptador">
+            <article class="contenedor-desencriptador">
+                <img src="./assets/munieco.png" alt="Imagen muñeco" class="img-muñeco" id="munieco">
+                <p class="subtitulo-uno" id="titulo-mensaje">Ningún mensaje fue encontrado</p>
+                <p class="subtitulo-dos" id="parrafo">Ingrese el texto que desea encriptar o desencriptar</p>
+            </article>
+            <textarea name="mensaje" id="mensaje" class="mensaje" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+     <footer>
+        <p class="copyrigth">&copy; Copyright 2024 - Encriptador de Texto - Desarrollado por Pedro Damián</p>
+        <a href="https://www.linkedin.com/in/pedro-dami%C3%A1n-caldera-s%C3%A1nchez-182922b7/" target="https://www.linkedin.com/in/pedro-dami%C3%A1n-caldera-s%C3%A1nchez-182922b7/" rel="">
+        <img src="./assets/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/pedrodamian150585" target="https://github.com/pedrodamian150585" rel="">
+            <img src="./assets/github.svg" alt="Logo GitHub" class="git">
+        </a>
+
+     </footer>
+
+     <script src="./js/script.js"></script>
+
+</body>
+</html>
