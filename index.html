@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/encriptado.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Encriptador de Texto</title>
 </head>
 <body>
@@ -26,8 +27,8 @@
                 <p class="texto-advertencia" id="advertencia">Sólo letras minúsculas y sin acentos</p>
             </article>
             <article class="contenedor-encriptador">
-                <button class="btn-encriptar" type="button">Encriptar</button>
-                <button class="btn-desencriptar" type="button" value="Desencriptar">Desencriptar</button>
+                <button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" value="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </article>
         </section>
 
